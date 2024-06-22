@@ -216,7 +216,7 @@ local function CheckIfBad(Instance)
 end
 if _G.SendNotifications then
     StarterGui:SetCore("SendNotification", {
-        Title = "discord.gg/rips",
+        Title = "by ripbozo",
         Text = "Loading FPS Booster...",
         Duration = math.huge,
         Button1 = "Okay"
@@ -237,7 +237,7 @@ coroutine.wrap(pcall)(function()
             sethiddenproperty(workspace:FindFirstChildOfClass("Terrain"), "Decoration", false)
         else
             StarterGui:SetCore("SendNotification", {
-                Title = "discord.gg/rips",
+                Title = "discord.gg/riphangout",
                 Text = "Your exploit does not support sethiddenproperty, please use a different exploit.",
                 Duration = 5,
                 Button1 = "Okay"
@@ -246,7 +246,7 @@ coroutine.wrap(pcall)(function()
         end
         if _G.SendNotifications then
             StarterGui:SetCore("SendNotification", {
-                Title = "discord.gg/rips",
+                Title = "discord.gg/riphangout",
                 Text = "Low Water Graphics Enabled",
                 Duration = 5,
                 Button1 = "Okay"
@@ -266,7 +266,7 @@ coroutine.wrap(pcall)(function()
             sethiddenproperty(Lighting, "Technology", 2)
         else
             StarterGui:SetCore("SendNotification", {
-                Title = "discord.gg/rips",
+                Title = "discord.gg/bozohangout",
                 Text = "Your exploit does not support sethiddenproperty, please use a different exploit.",
                 Duration = 5,
                 Button1 = "Okay"
@@ -275,7 +275,7 @@ coroutine.wrap(pcall)(function()
         end
         if _G.SendNotifications then
             StarterGui:SetCore("SendNotification", {
-                Title = "discord.gg/rips",
+                Title = "discord.gg/bozohangout",
                 Text = "No Shadows Enabled",
                 Duration = 5,
                 Button1 = "Okay"
@@ -292,7 +292,7 @@ coroutine.wrap(pcall)(function()
         settings().Rendering.MeshPartDetailLevel = Enum.MeshPartDetailLevel.Level04
         if _G.SendNotifications then
             StarterGui:SetCore("SendNotification", {
-                Title = "discord.gg/rips",
+                Title = "discord.gg/bozohangout",
                 Text = "Low Rendering Enabled",
                 Duration = 5,
                 Button1 = "Okay"
@@ -311,7 +311,7 @@ coroutine.wrap(pcall)(function()
         MaterialService.Use2022Materials = false
         if _G.SendNotifications then
             StarterGui:SetCore("SendNotification", {
-                Title = "discord.gg/rips",
+                Title = "discord.gg/bozohangout",
                 Text = "Reset Materials Enabled",
                 Duration = 5,
                 Button1 = "Okay"
@@ -342,10 +342,10 @@ coroutine.wrap(pcall)(function()
                 setfpscap(1e6)
                 if _G.SendNotifications then
                     StarterGui:SetCore("SendNotification", {
-                        Title = "by realfailed#0",
+                        Title = "by ripbozo",
                         Text = "FPS Uncapped",
                         Duration = 10,
-                        Button1 = "Ya Yeet"
+                        Button1 = "ok"
                     })
                 end
                 if _G.ConsoleLogs then
@@ -354,7 +354,7 @@ coroutine.wrap(pcall)(function()
             end
         else
             StarterGui:SetCore("SendNotification", {
-                Title = "by realfailed#0",
+                Title = "by ripbozo",
                 Text = "FPS Cap Failed",
                 Duration = math.huge,
                 Button1 = "Okay"
@@ -372,7 +372,7 @@ local StartNumber = _G.WaitPerAmount or 500
 local WaitNumber = _G.WaitPerAmount or 500
 if _G.SendNotifications then
     StarterGui:SetCore("SendNotification", {
-        Title = "by realfailed#0",
+        Title = "by ripbozo",
         Text = "Checking " .. #Descendants .. " Instances...",
         Duration = 15,
         Button1 = "Okay"
@@ -392,7 +392,7 @@ for i, v in pairs(Descendants) do
     end
 end
 StarterGui:SetCore("SendNotification", {
-    Title = "by realfailed#0",
+    Title = "by ripbozo",
     Text = "FPS Booster Loaded!",
     Duration = math.huge,
     Button1 = "Okay"
